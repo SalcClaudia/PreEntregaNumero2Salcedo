@@ -1,82 +1,98 @@
 [
     {
         "id": 1,
-        "name": "Tobillera de cuero y diges de anclas",
+        "name": "PIERCING OREJA ORO 18 QUILATES",
         "price":50,
-        "description": "",
+        "description": "Piercing oreja estrella lapislázuli natural",
         "category": "Aretes",
         "image": "../src/assets/piercingStarBlue.webp"
     },
     {
         "id": 2,
-        "name": "Tobillera para bebé de acero inoxidable",
+        "name": "PIERCING OREJA ORO 18 QUILATES",
         "price":35,
-        "description": "",
+        "description": "Piercing oreja onix natural reconstituído calibre 04.5mm",
         "category": "Aretes",
         "image": "../src/assets/piercingHeartBlack.webp"
     },
     {
         "id": 3,
-        "name": "Tobillera multicolor con diges pequeños diges colgantes",
+        "name": "PENDIENTE ORO 18 QUILATES",
         "price":45,
-        "description": "",
+        "description": "Pendiente coral sintética redondo 4 orla lazo coral",
         "category": "Aretes",
         "image": "../src/assets/redGoldEarring.webp"
     },
     {
         "id": 4,
-        "name": "Brazalete dorado con dige de estrella",
+        "name": "ARO ORO 18 QUILATES",
         "price":30,
-        "description": "",
+        "description": "Aro tubo redondo hueco 20 x 2 cierre de hilo Oro de 750 milésimas",
         "category": "Aretes",
         "image": "../src/assets/goldHoops.webp"
     },
     {
         "id": 5,
-        "name": "Pequeños aretes ovalados de acero con piedra azul diamante",
+        "name": "PENDIENTE PLATA PRIMERA LEY",
         "price":40,
-        "description": "",
+        "description": "Pendiente plata mariposa alas lisa circonita garras",
         "category": "Aretes",
         "image": "../src/assets/earringsButterfly.webp"
     },
     {
         "id": 6,
-        "name": "Aretes gota de acero color azul cristal",
+        "name": "PENDIENTE PLATA PRIMERA LEY",
         "price":40,
-        "description": "",
+        "description": "Pendiente plata corazón liso calado circonita garras",
         "category": "Aretes",
         "image": "../src/assets/heartEarrings.webp"
     },
     {
         "id": 7,
-        "name": "Set dos anillos dorados y plateado",
+        "name": "PENDIENTE PLATA PRIMERA LEY",
         "price":20,
-        "description": "",
+        "description": "Pendiente plata circonita azul marino redondo garras",
         "category": "Aretes",
-        "image": "../src/assets/earringsButterfly.webp"
+        "image": "../src/assets/purpleEarringFlower.webp"
     },
     {
         "id": 8,
-        "name": "Anillo plateado joya azul diamante",
+        "name": "SORTIJA ORO BLANCO 18 QUILATES",
         "price":30,
-        "description": "",
+        "description": "Sortija oro blanco tipo solitario circonita 5 mm",
         "category": "Anillos",
-        "image": "../src/assets/anilloPlateado"
+        "image": "../src/assets/anilloPlateado.webp"
     },
     {
         "id": 9,
-        "name": "Set anillos elegantes perla blanca",
+        "name": "SORTIJA PLATA PRIMERA LEY",
         "price":35,
-        "description": "",
+        "description": "Sortija plata 2 hilera circonita garras 3 hilo liso calado enlazado medida 8",
         "category": "Anillos",
-        "image": "../src/assets/anillo2"
+        "image": "../src/assets/anillo2.webp"
     },
     {
         "id": 10,
-        "name": "Collar ave bhbh dorada",
-        "price":40,
-        "description": "",
+        "name": "SORTIJA DIAMANTE ORO 18 QUILATES",
+        "price":45,
+        "description": "Sortija oro blanco 44 diamante natural blanco small",
         "category": "Anillos",
-        "image": "../src/assets/anillo3"
+        "image": "../src/assets/anillo3.webp"
+    },
+    {
+        "id": 11,
+        "name": "SORTIJA PLATA PRIMERA LEY",
+        "price":55,
+        "description": "Sortija plata tipo solitario circonita rosa 5 mm",
+        "category": "Anillos",
+        "image": "../src/assets/anillo4.webp"
+    },
+    {
+        "id": 12,
+        "name": "SORTIJA ORO 18 QUILATES",
+        "price":80,
+        "description": "Sortija rubi natural oval 6 x 4 mm",
+        "category": "Anillos",
+        "image": "../src/assets/anillo5.webp"
     }
 ]

@@ -24,10 +24,11 @@ const ItemListContainer = () => {
                         <div className="col">
                             <div key={cards.id} className="card">
                                 <div className="deal-container">
-                                    <img className="card-img-top" src={cards.image} alt={cards.name} />
+                                    <img className="card-img-top" src={cards.image} alt="" />
                                 </div>
                                 <div className="card-body">
                                     <h5 className="card-title text-light">{cards.name}</h5>
+                                    <p className="card-title text-light">{cards.description}</p>
                                     <p className="card-text text-light">${cards.price}</p>
 
                                 </div>

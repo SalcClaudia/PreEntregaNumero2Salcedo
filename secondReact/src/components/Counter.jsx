@@ -6,19 +6,19 @@ const Counter = () => {
     return (
         <>
             <div className="container">
-                <div className="row">
+                <div className="row my-3">
                     <div className="col">
                         <div className="btn-group" role="group">
-                            <button type="button" className="btn btn-outline-light">+</button>
-                            <button type="button" className="btn btn-outline-light">{count}</button>
-                            <button type="button" className="btn btn-outline-light">-</button>
+                            <button type="button" className="btn btn-outline-dark">+</button>
+                            <span type="button" className="btn btn-outline-dark">{count}</span>
+                            <button type="button" className="btn btn-outline-dark">-</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="row my-1">
                 <div className="col">
-                    <button type="button" className="btn btn-outline-light">Agregar</button>
+                    <button type="button" className="btn btn-outline-dark">Agregar</button>
                 </div>
             </div>
         </>

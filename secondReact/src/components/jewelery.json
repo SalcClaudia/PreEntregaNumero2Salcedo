@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Tobillera de cuero y diges de anclas",
+        "price":50,
+        "description": "",
+        "category": "Aretes",
+        "image": "../src/assets/piercingStarBlue.webp"
+    },
+    {
+        "id": 2,
+        "name": "Tobillera para bebé de acero inoxidable",
+        "price":35,
+        "description": "",
+        "category": "Aretes",
+        "image": "../src/assets/piercingHeartBlack.webp"
+    },
+    {
+        "id": 3,
+        "name": "Tobillera multicolor con diges pequeños diges colgantes",
+        "price":45,
+        "description": "",
+        "category": "Aretes",
+        "image": "../src/assets/redGoldEarring.webp"
+    },
+    {
+        "id": 4,
+        "name": "Brazalete dorado con dige de estrella",
+        "price":30,
+        "description": "",
+        "category": "Aretes",
+        "image": "../src/assets/goldHoops.webp"
+    },
+    {
+        "id": 5,
+        "name": "Pequeños aretes ovalados de acero con piedra azul diamante",
+        "price":40,
+        "description": "",
+        "category": "Aretes",
+        "image": "../src/assets/earringsButterfly.webp"
+    },
+    {
+        "id": 6,
+        "name": "Aretes gota de acero color azul cristal",
+        "price":40,
+        "description": "",
+        "category": "Aretes",
+        "image": "../src/assets/heartEarrings.webp"
+    },
+    {
+        "id": 7,
+        "name": "Set dos anillos dorados y plateado",
+        "price":20,
+        "description": "",
+        "category": "Aretes",
+        "image": "../src/assets/earringsButterfly.webp"
+    },
+    {
+        "id": 8,
+        "name": "Anillo plateado joya azul diamante",
+        "price":30,
+        "description": "",
+        "category": "Anillos",
+        "image": "../src/assets/anilloPlateado"
+    },
+    {
+        "id": 9,
+        "name": "Set anillos elegantes perla blanca",
+        "price":35,
+        "description": "",
+        "category": "Anillos",
+        "image": "../src/assets/anillo2"
+    },
+    {
+        "id": 10,
+        "name": "Collar ave bhbh dorada",
+        "price":40,
+        "description": "",
+        "category": "Anillos",
+        "image": "../src/assets/anillo3"
+    }
+]

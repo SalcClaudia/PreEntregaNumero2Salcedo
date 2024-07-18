@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+  
+}
+
+.container-fluid,
+.navbar {
+  background-color: transparent;
+  padding: 10px;
+  margin: 0;
+}
+
+.cart {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.navbar-nav {
+  color: black;
+}
+
+.p-items {
+  font-weight: bold;
+
+}
+
+.custom-width{
+  width: 40rem;
+  margin-left: 200px;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../src/assets/landing.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+
+.img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.title-deal {
+  color: azure;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #191919;
+}
+
+/*.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}*/
+
+.card {
+  margin-top: 50px;
+  width: 18rem;
+}
+
+
+.card-body {
+  background-color: #191919;
+}
+

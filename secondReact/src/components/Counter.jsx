@@ -18,7 +18,7 @@ const Counter = () => {
             </div>
             <div className="row my-1">
                 <div className="col">
-                    <button type="button" className="btn btn-outline-dark">Agregar</button>
+                    <button type="button" className="btn btn-outline-dark mb-3">Agregar</button>
                 </div>
             </div>
         </>

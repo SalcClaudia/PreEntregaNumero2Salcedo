@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import MainBanner from "./MainBanner";
 import jewelery from "./jewelery.json"
 import Counter from "./Counter"
 import { useParams } from "react-router-dom";
@@ -17,13 +16,12 @@ const ItemListContainer = () => {
 
     return (
         <>
-            <MainBanner summerdeal={"Ultimos lanzamientos de verano"} deal={"https://imgs.search.brave.com/9-MG0a60mH_KbNES3Lpa6h6_dqZGMko3ioa7LH0X6Uk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdHls/ZWNhc3Rlci5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjQv/MDMvaW1hZ2VfMjU0/NGRjLnBuZz93PTgw/MCZoPTgwMCZjcm9w/PTE"} />
             <div className="container">
                 <div className="row">
                     {cards.map(cards => (
-                        <div className="col">
-                            <div key={cards.id} className="card">
-                                <div className="deal-container">
+                        <div key={cards.id} className="col">
+                            <div className="card">
+                                <div className="deal-container shadow p-3">
                                     <img className="card-img-top" src={cards.image} alt="" />
                                 </div>
                                 <div className="card-body">

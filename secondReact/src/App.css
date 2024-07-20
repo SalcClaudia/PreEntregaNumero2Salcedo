@@ -56,12 +56,6 @@
   text-shadow: 2px 2px 2px #191919;
 }
 
-/*.card-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}*/
-
 .card {
   margin-top: 50px;
   width: 18rem;

@@ -6,7 +6,7 @@ const NavBar = () => {
 
     <nav className="navbar navbar-expand-lg">
       <div className="container-fluid">
-        <Link to={"/"} className="navbar-brand">Emerald Jewelry</Link>
+        <Link to={"/"} className="navbar-brand ms-4">Emerald Jewelry</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -28,8 +28,8 @@ const NavBar = () => {
           </ul>
             <div className="custom-width">
               <form className="d-flex" role="search">
-                <input className="form-control me-2" type="search" placeholder="Encuentra lo que necesitas" aria-label="Search"></input>
-                  <button className="btn btn-outline-success" type="submit">Buscar</button>
+                <input className="form-control me-2 border border-black" type="search" placeholder="Encuentra lo que necesitas" aria-label="Search"></input>
+                  <button className="btn btn-dark" type="submit">Buscar</button>
               </form>
             </div>
         </div>

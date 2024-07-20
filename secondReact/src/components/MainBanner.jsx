@@ -8,4 +8,4 @@ const MainBanner = ({ summerdeal }) => {
         )
         }
     
-        export default MainBanner
+        export default MainBanner;

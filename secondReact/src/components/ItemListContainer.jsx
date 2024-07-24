@@ -30,7 +30,7 @@ const ItemListContainer = () => {
                                     <p className="card-text text-light">${cards.price}</p>
 
                                 </div>
-                                <Counter/>
+                                <Counter products={20}/>
                             </div>
                         </div>
                     ))}

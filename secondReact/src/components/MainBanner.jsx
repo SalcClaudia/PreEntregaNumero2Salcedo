@@ -7,13 +7,6 @@ const MainBanner = ({ summerdeal }) => {
                 </div>
             </section>
 
-            <section className="container-fluid mt-5 py-3 bg-black">
-                <div className="row">
-                    <div className="col">
-                    <h3 className="text-light">No te pierdas nuestra colección</h3>
-                    </div>
-                </div>
-            </section>
         </>
     )
 }

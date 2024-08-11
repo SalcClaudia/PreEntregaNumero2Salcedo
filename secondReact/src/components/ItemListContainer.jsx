@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Counter from "./Counter"
-import { collection, getDocs, getFirestore, query, where, limit } from "firebase/firestore"
+import { collection, getDocs, getFirestore, query, where } from "firebase/firestore"
 import { Link, useParams } from "react-router-dom";
 import Loader from "./Loader"
 

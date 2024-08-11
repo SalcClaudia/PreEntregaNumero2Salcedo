@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import Landing from './components/Landing'
 import ItemDetails from './components/ItemDetails'
 import ItemListContainer from './components/ItemListContainer'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/ItemDetails/:id" element={<ItemDetails />} />
           <Route path={"/category/:id"} element={<ItemListContainer />} />
           </Routes>
+          <Footer />
         </BrowserRouter>
     </>
   )

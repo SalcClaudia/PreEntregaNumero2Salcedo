@@ -66,4 +66,62 @@
   background-color: #191919;
 }
 
+.product-price{
+  text-align: right;
+font-size: 25px;
+padding-right: 20px;
+}
 
+.container-price{
+  margin-top: 10px;
+}
+
+.product-description{
+  margin-top: 30px;
+  padding: 20px;
+  text-align: left;
+
+}
+
+.costume-counter{
+  display: flex;
+  text-align: right;
+
+}
+
+.custome-container{
+  height: 400px;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: #343a40; 
+  color: #ffffff; 
+}
+
+.footer h5 {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}

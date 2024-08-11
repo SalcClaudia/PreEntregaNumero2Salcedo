@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-const Counter = ({ products }) => {
+const Counter = ({ products, onAdd }) => {
     const [count, setCount] = useState(0);
-
     const [stock, setStock] = useState(products);
+    const [showing, setShowing] = useState(true);
 
     const AddUp = () => {
         if (count < stock) {
@@ -17,32 +18,42 @@ const Counter = ({ products }) => {
         }
     }
 
-    const OnAdd = () => {
+    const AddCart = () => {
         if (count <= stock) {
             setStock(stock - count);
+            onAdd(count);
+            setShowing(false);
             console.log("Haz agregado " + count + " al carrito")
         }
     }
 
+    useEffect(() => {
+        setStock(products)
+    }, [products])
+
+
     return (
         <>
-            <div className="container">
-                <div className="row my-3">
-                    <div className="col">
-                        <div className="btn-group" role="group">
-                            <button type="button" className="btn btn-outline-dark" onClick={Subtract}>-</button>
-                            <span type="button" className="btn btn-outline-dark">{count}</span>
-                            <button type="button" className="btn btn-outline-dark" onClick={AddUp}>+</button>
+                
+        {showing ?
+            <><div className="container">
+                    <div className="row my-3">
+                        <div className="col">
+                            <div className="btn-group" role="group">
+                                <button type="button" className="btn btn-outline-dark" onClick={Subtract}>-</button>
+                                <span type="button" className="btn btn-outline-dark">{count}</span>
+                                <button type="button" className="btn btn-outline-dark" onClick={AddUp}>+</button>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className="row my-1">
-                <div className="col">
-                    <button type="button" className="btn btn-outline-dark mb-3" onClick={OnAdd}>Agregar</button>
-                </div>
-            </div>
+                </div><div className="row my-1">
+                        <div className="col">
+                            <button type="button" className="btn btn-outline-dark mb-3" onClick={AddCart}>Agregar</button>
+                        </div>
+                    </div></> : <Link to={"/Cart"} className="btn btn-outline-dark mb-3">Finalizar compra</Link>}
+       
         </>
+
     )
 
 }

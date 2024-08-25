@@ -1,9 +1,10 @@
 import { getDoc, getFirestore, doc } from "firebase/firestore";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Counter from "./Counter";
+import { CartContext } from "./CartContext";
 
-const ItemDetails = () => {
+const ItemDetails = ({item}) => {
 
     const { id } = useParams();
     const [product, setProduct] = useState([]);
@@ -16,13 +17,18 @@ const ItemDetails = () => {
             if (doc.exists()) {
                 setProduct({ id: doc.id, ...doc.data() });
             } else {
-                console.log(id);
                 console.error("No existe tal documento!");
             }
 
-        }, [id]);
+        });
 
-    })
+    }, [id])
+
+    const {addItem} = useContext(CartContext);
+
+    const onAdd = (quantity) => {
+        addItem(product, quantity);
+    }
 
     return (
         <>
@@ -42,7 +48,7 @@ const ItemDetails = () => {
                         </div>
                         </div>
                         <div className="mt-4 costume-counter">
-                            <Counter products={20}/>
+                            <Counter products={20} onAdd={onAdd}/>
                         </div>
                     </div>
                 </div>

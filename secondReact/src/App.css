@@ -125,3 +125,12 @@ padding-right: 20px;
 .footer ul li {
   margin-bottom: 10px;
 }
+
+.trash-can{
+  width: 20px;
+  height: 20px;
+}
+
+.cart-title{
+  margin: 50px;
+}

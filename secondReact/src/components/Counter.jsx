@@ -21,7 +21,8 @@ const Counter = ({ products, onAdd }) => {
     const AddCart = () => {
         if (count <= stock) {
             setStock(stock - count);
-            onAdd(count);
+            onAdd(count)
+            setCount(1)
             setShowing(false);
             console.log("Haz agregado " + count + " al carrito")
         }
@@ -33,24 +34,26 @@ const Counter = ({ products, onAdd }) => {
 
 
     return (
+
         <>
-                
-        {showing ?
-            <><div className="container">
-                    <div className="row my-3">
-                        <div className="col">
-                            <div className="btn-group" role="group">
-                                <button type="button" className="btn btn-outline-dark" onClick={Subtract}>-</button>
-                                <span type="button" className="btn btn-outline-dark">{count}</span>
-                                <button type="button" className="btn btn-outline-dark" onClick={AddUp}>+</button>
-                            </div>
+            {showing ? 
+            <div className="container">
+                <div className="row my-3">
+                    <div className="col">
+                        <div className="btn-group" role="group">
+                            <button type="button" className="btn btn-outline-dark" onClick={Subtract}>-</button>
+                            <span className="btn btn-outline-dark">{count}</span>
+                            <button type="button" className="btn btn-outline-dark" onClick={AddUp}>+</button>
                         </div>
                     </div>
-                </div><div className="row my-1">
-                        <div className="col">
-                            <button type="button" className="btn btn-outline-dark mb-3" onClick={AddCart}>Agregar</button>
-                        </div>
-                    </div></> : <Link to={"/Cart"} className="btn btn-outline-dark mb-3">Finalizar compra</Link>}
+                </div>
+                <div className="row my-1">
+                    <div className="col">
+                        <button type="button" className="btn btn-outline-dark mb-3" onClick={AddCart}>Agregar</button>
+                    </div>
+                </div>
+            </div> : <Link to={"/Cart"} className="btn btn-outline-dark mb-3">Finalizar compra</Link>}
+                
        
         </>
 

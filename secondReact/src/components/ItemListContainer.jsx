@@ -47,7 +47,6 @@ const ItemListContainer = () => {
                                     <p className="card-text text-light">${cardProducts.price}</p>
 
                                 </div>
-                                <Counter products={20} />
                             </div>
                         </div>
                     ))
